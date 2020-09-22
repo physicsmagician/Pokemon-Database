@@ -4,7 +4,7 @@ This program allows you to view all the original 151 Kanto Pokemon along with th
 HOW TO RUN:
 First download the 3TierArchitecture folder and all of its contents. Then go into the src and run the 'DatabaseGUI' into Eclipse.
 Now you should be able to see the database and play with it as you please!
-Here is a demo of the program:
+Here is a demo of the program: ![Pokedex-demo](https://user-images.githubusercontent.com/59658246/93866990-a5c19a80-fc85-11ea-89fb-9ec486b06ed9.gif)
 
 HOW IT WORKS:
 The Pokedex GUI is designed so that you can visualize and manipulate the data without having to learn SQL. There are four main functions
@@ -18,14 +18,18 @@ that require a certain kind of input so that you can't break the system (e.g., H
 
 The Import function: This is meant for CSV files. If you have a CSV file and want to try using it to enter bulk data, then this is for you.
 Note that the CSV data must have valid parameters for it to be added into the database.
+I don't want to show my file folders, but try it out for yourself!
 
 The Modify function: This function allows you to change entries within the database.
+![Modify-function-demo](https://user-images.githubusercontent.com/59658246/93867019-b3772000-fc85-11ea-849f-90305fa81c91.gif)
 
 The Delete function: Delete an entry. 
+![Delete-function-demo](https://user-images.githubusercontent.com/59658246/93867088-cee22b00-fc85-11ea-9e24-b6ce4d3ee85b.gif)
 
 The Join function: This method only works for the primary database (namely, the Pokemons) and allows you to join moves with Pokemon. This feature
 was manely a take on the original games where you can teach your Pokemon new moves. Usually there was a 4 move limit, but this program allows you
 to have as many moves as you like for your Pokemon. 
+![Join-function-demo](https://user-images.githubusercontent.com/59658246/93867047-bd991e80-fc85-11ea-93bf-2e202f554936.gif)
 
 TECHNOLOGY USED:
 This program was made using SQL, Java, and Microsoft Access. SQL and Access were used to create and manipulate the
