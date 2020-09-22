@@ -1,0 +1,4 @@
+﻿Blowup,Grass,0,30,Null
+FireBomb,Fire,10,15,Null
+Throw,Fighting,40,10,Null
+Attack,Fighting,30,10,Decrease HP
