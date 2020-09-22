@@ -14,7 +14,7 @@ the data that contains the Pokemon, while the one on the bottom changes the data
 
 The Add function: This adds a new Pokemon or move (again depending on which button you press). There are specific dialogues for each of these
 that require a certain kind of input so that you can't break the system (e.g., Having the same 2 types for one Pokemon).
-![](Add-function-demo.gif)
+![Add-function-demo](https://user-images.githubusercontent.com/59658246/93865067-056a7680-fc83-11ea-8e5f-69afdd6bf10c.gif)
 
 The Import function: This is meant for CSV files. If you have a CSV file and want to try using it to enter bulk data, then this is for you.
 Note that the CSV data must have valid parameters for it to be added into the database.
